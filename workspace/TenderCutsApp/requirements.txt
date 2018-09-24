@@ -1,0 +1,7 @@
+# Appium should be installed
+selenium
+Appium-Python-Client
+pytest
+pytest-bdd
+mysqlclient
+requests

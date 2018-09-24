@@ -1,0 +1,7 @@
+*.pyc
+__pycache__
+.project
+.pydevproject
+.idea/
+.pytest_cache/
+.Document/
