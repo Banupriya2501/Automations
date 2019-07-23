@@ -1,0 +1,10 @@
+*.pyc
+__pycache__
+.project
+.pydevproject
+.idea/
+.pytest_cache/
+.Document/
+*.html
+app-debug.apk
+test.py

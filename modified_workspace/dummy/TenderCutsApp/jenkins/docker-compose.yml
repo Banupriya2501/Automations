@@ -1,0 +1,14 @@
+version: '2'
+services:
+  appium:
+    build: ./appium
+    container_name: appium
+    ports:
+      - "6080:6080"
+      - "4723:4723"
+    volumes:
+      - ../:/test
+    privileged: true
+    environment:
+      - DEVICE=Nexus 5
+      - APPIUM=true
